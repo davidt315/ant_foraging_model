@@ -34,6 +34,7 @@ To expand on the authors' work, we experimented with competing colonies that are
 The authors were not explicit about the values they used for the parameters in their model. This made it difficult to recreate the patterns the authors presented in their figures. For tuning and debugging purposes (pun intended), we plotted food, ant, and pheromone counts on a grid, as shown in Figure 1, to better understand how our list of parameters affected ant movement.
 
 ![](figures/debugging.png)
+
 **Figure 1:** Example of a modeled army ant colony foraging. The figure displays the amount of food, ants, and pheromones present in each grid of the environment. For each three subplots, a darker color is associated with a higher concentration of the variable of interest.
 
 In the first environment, food is scattered so that each square has a 50% chance of containing a unit of food. The associated foraging pattern created by the original authors is shown in Figure 2. In this scenario, where food is abundant in small quantities, the foraging pattern consists of well defined paths near the base that branch out when approaching the furthest ant. At the most distant point from the nest, the ants are arranged in an almost random pattern.
